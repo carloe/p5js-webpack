@@ -1,0 +1,23 @@
+{
+  "name": "p5js-webpack",
+  "version": "1.0.0",
+  "description": "A barebones p5js webpack template",
+  "private": true,
+  "scripts": {
+    "start": "npx webpack serve --config webpack.dev.js",
+    "build": "npx webpack --config webpack.prod.js",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": [],
+  "author": "Carlo Eugster <carlo@relaun.ch>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
